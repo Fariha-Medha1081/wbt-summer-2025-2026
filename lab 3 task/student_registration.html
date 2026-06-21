@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" nmethod="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">Full name </label>
+            <input type="text" name="fname" id="fname" placeholder="Enter your full name" required>
+            <br><br>
+            <label for="id">Student ID </label>
+            <input type="number" name="id" id="id" placeholder="Enter your Student ID" required> <br><br>
+
+            <label for="email"> Email Adress:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email adress" required> <br><br>
+
+            <label for="phone"> Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your Phone Number" required> <br><br>
+
+            <label for="dob"> Date of birth:</label>
+            <input type="date" name="dob" id="dob" required> <br><br>
+
+
+
+            <!-- <table border="3">
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+            </table> -->
+            <!-- radiioo -->
+
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</lavel>
+
+                <input type="radio" id="fmale" name="gender" value="female">
+                <label for="female">Female</lavel>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Female</lavel>
+                        <br><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend><b>Academic Information </b></legend>
+            <label for="department">Department </label>
+
+            <select id="department" name="Department ">
+
+                <option value="CSE" selected>CSE</option>
+                <option value="EEE" selected>EEE</option>
+                <option value="BBA" selected>BBA</option>
+                <option value="English " selected>English </option>
+                <option value="Civil Engineering">Civil Engineering </option>
+
+
+                <option value="Department" selected>Department</option>
+
+            </select><br><br>
+
+            <label for="semester">Semester</label>
+
+            <select id="semester" name="Semester">
+
+                <option value="1st Semester " selected>1st Semester </option>
+                <option value="2nd Semester" selected>2nd Semester</option>
+                <option value="3rd Semester" selected>3rd Semester</option>
+                <option value="4th Semester " selected>4th Semester</option>
+                <option value="5th Semester " selected>5th Semester</option>
+                <option value="6th Semester " selected>6th Semester</option>
+                <option value="7th Semester " selected>7th Semester</option>
+                <option value="8th Semester " selected>8th Semester</option>
+                <option value="Select An Option" selected>Select An Option</option>
+
+            </select>
+
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Skills</b></legend>
+            <label>Select Programming Languages Known: </label><br>
+            <input type="checkbox" id="c" name="language" value="C">
+            <label for="c">C</label><br>
+
+            <input type="checkbox" id="cpp" name="language" value="Cpp">
+            <label for="cpp">C++</label><br>
+
+            <input type="checkbox" id="java" name="language" value="Java">
+            <label for="java">Java</label><br>
+
+            <input type="checkbox" id="python" name="language" value="Python ">
+            <label for="python">Python</label><br>
+
+            <input type="checkbox" id="java script" name="language" value="Java script">
+            <label for="java script">Java script</label><br>
+
+
+
+
+        </fieldset>
+
+
+        <fieldset>
+
+
+            <legend><b>Additional Information: </b> </legend><br>
+            <label for="adress">Adress:</label><br>
+            <textarea id="adress" placeholder="Enter your Adress" name="adress" rows="4" cols="40" maxlength="200"></textarea>
+
+            <br>
+
+            <label for="photo">Upload student photo:</label><br>
+            <input type="file" id="photo" name="photo" <br><br>
+            <label for="comment">Comments:</label><br>
+            <textarea id="comment" placeholder="Enter any additional Comments" name="comment" rows="4" cols="40" maxlength="200"></textarea>
+
+
+
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+
+
+
+
+
+
+
+
+
+
+        </fieldset>
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
